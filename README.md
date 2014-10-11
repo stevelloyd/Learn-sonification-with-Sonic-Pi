@@ -3,7 +3,7 @@
 
 If you haven’t heard of [Sonic Pi](http://sonic-pi.net/) yet, it’s a brilliant sound synthesiser which runs on the Pi. It can support the learning of computing and also music.
 
-This resource is about using Sonic Pi to ‘visualise’ data using sound; there’s a fancy name for this ‘sonification’. The aim is to use Sonic Pi, with help from another software package which is alo part of the standard Pi Raspbian software—_Mathematica_ to take weather (temperature) data and turn it into sound . Why do this? The ear is very sensitive to changes, and can pick out trends in data which might not be immediately apparent just by looking at a sequence of numbers.
+This resource is about using Sonic Pi to ‘visualise’ data using sound; there’s a fancy name for this ‘sonification’. The aim is to use Sonic Pi, with help from another software package which is also part of the standard Pi Raspbian software—_Mathematica_ to take weather (temperature) data and turn it into sound. Why would you want to do this? The ear is very sensitive to changes, and can pick out trends in data which might not be immediately apparent just by looking at a sequence of numbers. Sonification is becoming an important way of interpreting data.
 
 ## What do I need?
 
