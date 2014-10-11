@@ -101,11 +101,15 @@ At the top there are definitions of two utility functions, whose purpose is to t
 
 Firstly `quantity_to_temp(quantity)` takes one of the lines from the `temperature.txt` file and does some string manipulation to return a string with just the temperature number in it. (It does this in two stages; firstly removing all the text up to the temp, and then discarding everything after it. Look at Ruby’s [documentation](http://www.ruby-doc.org/core-2.1.3/String.html) to see the String functions used).
 
-Next `scale(t)` is important, so that we can sctually hear the note Sonic Pi plays (good values for `play` are between 30 and 120). You need to multiply the temp. by a scaling factor, whose value depends on the place where your temperatures are from. (The range in this particular day in Kathmandu was 15-26 °C.) So, a good value in this case for the variable `scaling_factor` is _3_, giving us notes from 45 to 78. You may have to adjust `scaling_factor` for your choice of location.
+Next `scale(t)` is important, so that we can actually hear the note Sonic Pi plays (good values for `play` are between 30 and 120). You need to multiply the temp. by a scaling factor, whose value depends on the place where your temperatures are from. (The range in this particular day in Kathmandu was 15-26 °C.) So, a good value in this case for the variable `scaling_factor` is _3_, giving us notes from 45 to 78. You may have to adjust `scaling_factor` for your choice of location.
 
 The last part of the workspace does the actual playing. Because Sonic Pi has many facilities available from its underlying Ruby language, we can use them to open our temperature file and then iterate over each line of the file, showing the `Quantity` text in the Sonic Pi’s log window, and then playing the scaled note.
 
-(If you’d like to read an entertaining online guide to Ruby, try [Why's (Poignant) Guide to Ruby](http://mislav.uniqpath.com/poignant-guide/)). Or for an excellent, more conventional alternative, [Programming Ruby: The Pragmatic Programmer's Guide](http://ruby-doc.com/docs/ProgrammingRuby/).
+(If you’d like to read an entertaining online guide to Ruby, try [Why's (Poignant) Guide to Ruby](http://mislav.uniqpath.com/poignant-guide/). Or for an excellent, more conventional alternative, [Programming Ruby: The Pragmatic Programmer's Guide](http://ruby-doc.com/docs/ProgrammingRuby/)).
 
 Finally, press Sonic Pi’s _Run_ button and listen to the results of this not inconsiderable effort on your part. At the risk of annoying your neighbours/pets, you might want to experiment with different values of `scaling_factor` and `sleep`. 
+
+## Next steps
+
+This is just a brief, prosaic introduction to sonification with Sonic Pi and Mathematica. There are an infinite variety of data sources suitable for treatment in this way. With Sonic Pi’s Ruby programmability, you could continuously query external sources and play sounds to interpret them. 
 
