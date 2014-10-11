@@ -1,1 +1,0 @@
-# Another example—Antarctic climate
