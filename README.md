@@ -13,6 +13,11 @@ To undertake this you will need:
 - an internet connection, so the Pi can download data
 - a kettle, or other means of making a beverage, during the long process of Step 2 of the [worksheet](https://github.com/stevelloyd/Learn-sonification-with-Sonic-Pi/blob/master/worksheet.md)
 
+Make sure you’ve updated Mathematica and Sonic Pi to the latest versions with 
+
+`sudo apt-get update; sudo apt-get upgrade`
+
+
 This resource is a re-working of an earlier blog post—[Hearing the weather-sonification in Sonic Pi](http://stevelloyd.net/notes/2014/06/23/hearing-the-weather-sonification-in-sonic-pi/) with modifications to suit Mathematica 10 now in Raspbian (version of [ NOOBS 1.3.10](http://www.raspberrypi.org/downloads/)). 
 
 
